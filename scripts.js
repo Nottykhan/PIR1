@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
-    console.log("Page loaded successfully.");
-    // Add any interactive functionality here if needed
+// Optional Interactive Features
+document.addEventListener('DOMContentLoaded', () => {
+    console.log("Welcome to Dr. Pir Muhammad Ismail's webpage!");
 });
