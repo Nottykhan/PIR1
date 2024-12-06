@@ -101,18 +101,27 @@ main a:hover {
 /* Social Media Links */
 .social-links ul {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
     list-style: none;
     padding: 0;
+    margin: 0 auto;
+    max-width: 300px;
 }
 
 .social-links ul li {
-    margin: 0 15px;
+    text-align: center;
+    font-size: 1.2em;
 }
 
 .social-links ul li a {
-    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 1.2em;
     color: #0056b3;
+    text-decoration: none;
     transition: color 0.3s ease;
 }
 
