@@ -1,4 +1,4 @@
-// Optional Interactive Features
+// Ensure JS functionality is ready if needed in the future
 document.addEventListener('DOMContentLoaded', () => {
-    console.log("Welcome to Dr. Pir Muhammad Ismail's webpage!");
+    console.log("Page loaded successfully.");
 });
